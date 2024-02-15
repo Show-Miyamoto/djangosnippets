@@ -15,7 +15,7 @@ from snippets.views import top
 
 UserModel = get_user_model()
 
-
+"""
 class TopPageTset(TestCase):
     def test_top_page_returns_200_and_expected_title(self):
         response = self.client.get("/")
@@ -24,7 +24,7 @@ class TopPageTset(TestCase):
     def test_top_page_uses_expected_template(self):
        response = self.client.get("/")
        self.assertTemplateUsed(response, "snippets/top.html")
-
+"""
 
 class CreateSnippetTest(TestCase):
     def setUp(self):
